@@ -84,12 +84,13 @@ POST  /api/v1/users/register
 
 The request body needs to be in JSON format.
 
-| Parameter    | Type     | Description   | Required |
-| :----------- | :------- | :------------ | :------- |
-| `First name` | `string` | Your token    | Yes      |
-| `Last name`  | `string` | Your token    | Yes      |
-| `email     ` | `string` | Your email    | Yes      |
-| `password  ` | `string` | Your password | Yes      |
+| Parameter        | Type     | Description     | Required |
+| :--------------- | :------- | :-------------- | :------- |
+| `authentication` | `string` | Your token      | No       |
+| `First name`     | `string` | Your First name | Yes      |
+| `Last name`      | `string` | Your Last name  | Yes      |
+| `email     `     | `string` | Your email      | Yes      |
+| `password  `     | `string` | Your password   | Yes      |
 
 Example request body:
 
