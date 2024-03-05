@@ -85,6 +85,7 @@ const deleteMedicineController = async (req, res, next) => {
     next(appError(err.message));
   }
 };
+
 const searchMedicineController = async (req, res, next) => {
   try {
     const { medicineName } = req.query;
